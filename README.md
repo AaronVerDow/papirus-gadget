@@ -38,6 +38,21 @@ Putting a torrent client directly on the Pi is an easy way to download and verif
 * Works well via ssh
 * Other clients were overwhelming the Pi, this one had a simple performance tuning wiki 
 
+# Hardware
+## Recommended
+* Screen
+https://www.adafruit.com/product/3335
+* Any USB batter pack plugged into Power port
+    * Runs for a long time, doesn't reboot the pi when plugging into a host.
+* Micro USB cable plugged into data
+    * Longer cable can give you a nice place to set the Pi
+    * Doesn't require lots of space to plug into the PC
+## Not Recommended
+* PiSugar
+  * Looks nice but it reboots the Pi after plugging the Pi in
+* Zero Stem
+  * Too big to be functional.  Other cables kept getting in the way
+
 # Useful tutorials
 
 * https://linux-sunxi.org/USB_Gadget/Mass_storage
