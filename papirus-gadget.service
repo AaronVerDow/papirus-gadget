@@ -1,0 +1,10 @@
+[Unit]
+Description=Papirus Gadget Selector
+Requires=epd-fuse.service
+After=epd-fuse.service
+
+[Service]
+ExecStart=/usr/local/bin/papirus-gadget.py
+
+[Install]
+WantedBy=multi-user.target
